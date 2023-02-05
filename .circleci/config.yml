@@ -2,13 +2,13 @@ version: 2.1
 executors:
   python3-7:
     docker:
-      - image: circleci/python:3.7.9-browsers
+      - image: circleci/python:3.10.1-browsers
   python3-8:
     docker:
-      - image: circleci/python:3.8.7-browsers
+      - image: circleci/python:3.10.1-browsers
   python3-9:
     docker:
-      - image: circleci/python:3.9.1-browsers
+      - image: circleci/python:3.10.1-browsers
       
 commands:
   run-full-suite:
